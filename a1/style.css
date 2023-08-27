@@ -1,0 +1,22 @@
+#images{
+    width: 200px;
+}
+
+#tablerows{
+   text-align: center;
+}
+
+#boxsizes{
+    width: 200px;
+    height: fit-content;
+}
+
+td{
+    font-size: larger;
+}
+
+table, th, td {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+  padding: 0%;
+}
