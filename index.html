@@ -1,72 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <!-- Insert relevant content inside these tags -->
-    <title>Accessibility meme by Aditi Mundra and Ashritha Lolugu</title>
+    <!-- Metatags-->
     <meta charset="utf-8" />
     <meta name="author" content="Author Name" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta property="og:title" content="Page Title" />
-    <meta property="og:description" content="Lorem ipsum dolor..." />
-
-    <!-- No need to edit this -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Page Title" />
     <meta property="og:type" content="website" />
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <title>Meme Generator by Aditi Mundra</title>
+
+    <!-- Link to Template Stylesheet (CSS)-->
+    <link href="./template-files/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Link to p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <script type="text/javascript" src="./p5.js" defer></script>
+
+    <!-- Link to your Script file (JS)-->
+    <script type="text/javascript" src="./script.js" defer></script>
+
+    <!-- Link to your Stylesheet -->
+    <link href="./css-to-edit.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <!-- Insert your name here -->
-    <h1><b>Aditi Mundra</b></h1>
+    <!-- Header  -->
+    <header>
+      <h1 id="header">Meme Generator / Aditi Mundra</h1>
+    </header>
 
-    <!-- Insert your Batch / Program here. Eg: UGPP2022 / B.Des HCD  -->
-    <p>UGPP2026 / HCD</p>
-    <hr />
+    <!-- Main Container  -->
+    <div id="main-container">
+      <!-- Column One -- Parent Container for Controls/Input  -->
+      <div id="column-one"></div>
 
-    <!-- No need to edit this  -->
-    <h3>SEC: Programming as a Design Tool for Prototyping</h3>
-    <p>(SMHC2319) --- 2023/24 Odd Semester</p>
-    <hr />
+      <!-- Column Two -- Parent Container for Canvas  -->
+      <div id="column-two"></div>
+    </div>
 
-    <!-- A1 Details -->
-    <h3><u>Assignment 1</u></h3>
-    <p>
-      Making a meme based on the prompt, 'Accessibility' using two different
-      methods.
-    </p>
-    <!-- do not edit this-->
-    <a href="./a1/index.html" target="_blank">1. w HTML/CSS</a>
-    <br />
-    <!-- insert link to your p5.js sketch-->
-    <a
-      href="https://editor.p5js.org/ashritha.lolugu/full/gT490_TAa"
-      target="_blank"
-      >2. w p5.js</a
-    >
-
-    <br />
-    <br />
-    <br />
-
-    <!-- update the following as and when A2 and A3 are complete ---->
-
-    <!-- A2 Details -->
-    <h3><u>Assignment 2</u></h3>
-    <p>Making a meme generator.</p>
-    <a href="">1. A2.1</a>
-    <br />
-    <a href="">2. A2.2</a>
-    <br />
-    <a href="">2. A2.3</a>
-    <br />
-    <br />
-    <br />
-
-    <!-- A3 Details -->
-    <h3><u>Assignment 3</u></h3>
-    <p></p>
-    <br />
-    <a href=""></a>
+    <!-- Alert  -->
+    <div id="alert">
+      <h2>This webpage works only on viewports wider than 800px</h2>
+    </div>
   </body>
 </html>
