@@ -1,0 +1,224 @@
+/* Add your own CSS here */
+
+/* example of button being styled using the selectors assigned to it in the script.js file */
+
+#header{
+    color: #FFFCF7;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.general{
+    margin: 10px;
+    font-size:larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(23, 91, 91);
+}
+
+.dropdowns{
+    margin: 10px;
+    padding: 7px;
+    width: 100px;
+    border-color: rgb(66, 41, 30);
+    border-width: 1px;
+    background-color: #eedbb4;
+    color: rgb(66, 41, 30);
+    border-radius: 3px;
+    box-shadow: 2px 4px 6px rgba(82, 81, 81, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dropdowns:hover {
+    background-color: rgb(210, 198, 220);
+    cursor: pointer;
+}
+
+.inputs{
+    margin: 10px;
+    padding: 7px;
+    border-color: rgb(66, 41, 30);
+    border-width: 1px;
+    background-color: #eedbb4;
+    color: rgb(41, 40, 40);
+    border-radius: 3px;
+    box-shadow: 2px 4px 6px rgba(59, 58, 58, 0.5);
+}
+
+.inputs:hover {
+    background-color: rgb(210, 198, 220);
+    cursor: pointer;
+}
+
+.sliders{
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#rslider{
+    accent-color: rgb(229, 58, 58);
+}
+
+#rslider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#rslider::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    transition: .2s ease-in-out;
+  }
+
+ #rslider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(102, 1, 1, 0.1)
+ }
+  
+
+#rslider::-webkit-slider-thumb {
+    /*  ...  */
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px rgb(229, 58, 58);
+  }
+
+#gslider{
+    accent-color: rgb(26, 132, 26);
+}
+
+#gslider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#gslider::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: .2s ease-in-out;
+  }
+
+  #gslider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1)
+ }
+
+#gslider::-webkit-slider-thumb {
+    /*  ...  */
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px rgb(26, 132, 26);
+  }
+
+#bslider{
+    accent-color: rgb(19, 19, 218);
+}
+
+#bslider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#bslider::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: .2s ease-in-out;
+  }
+
+  #bslider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(17, 12, 151, 0.1)
+ }
+
+#bslider::-webkit-slider-thumb {
+    /*  ...  */
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px rgb(19, 19, 218);
+  }
+
+#fontslider{
+    accent-color: rgb(96, 95, 95);
+
+    overflow: hidden;
+  border-radius: 16px;
+    }
+
+#fontslider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#fontslider::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+    /* creating a custom design */
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: .2s ease-in-out;
+  }
+
+  #fontslider::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1)
+ }
+
+#fontslider::-webkit-slider-thumb {
+    /*  ...  */
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px rgb(96, 95, 95);
+  }
+
+.radio{
+    margin: 15px;
+    font-size:15px;
+    color: rgb(66, 41, 30);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal
+}
+
+.custom-radio::after{
+    background-color: #3498db;
+}
+
+.button{
+    margin: 10px;
+    padding: 7px;
+    width: 180px;
+    background-color: #eedbb4;
+    box-shadow: 2px 4px 6px rgba(59, 58, 58, 0.5);
+    border-color: rgb(66, 41, 30);
+    border-width: 1px;
+    color: rgb(66, 41, 30);
+    border-radius: 3px;
+    font-family: 'Courier New';
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: rgb(210, 198, 220);
+    cursor: pointer;
+}
+
+
+
+
+/* Use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
